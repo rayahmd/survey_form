@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+}
+body{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: lightblue;
+}
+
+form {
+    max-width:500px;
+    text-align: left;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+select{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
